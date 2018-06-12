@@ -1,0 +1,12 @@
+1
+Japao
+circulo
+50
+2
+Brasil
+retangulo
+190
+3
+India
+circulo
+90
