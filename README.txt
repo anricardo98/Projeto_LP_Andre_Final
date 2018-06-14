@@ -17,7 +17,7 @@ Passo 2: A leitura do arquivo "pista.txt" ocorre entre as linhas 74 e 98, tendo 
 Passo 3: Para melhor entendimento, dividiremos a explicação do código por partes:
 a) A mostragem da estatística dos sapos é chamada no arquivo  "main.cpp" entre as linhas 109 e 112, e é realizada no arquivo "corrida.cpp" entre as linhas 75 e 91;
 b) A mostragem da estatística das pistas é chamada no arquivo  "main.cpp" entre as linhas 113 e 116 e é realizada no arquivo "corrida.cpp" entre as linhas 95 e 106;
-c) A chamada da inicialização da corrida é realizada no arquivo  "main.cpp" entre as linhas 117 e 121, e a corrida é realizada no arquivo "corrida.cpp" entre as linhas 109 e 271;
+c) A chamada da inicialização da corrida é realizada no arquivo  "main.cpp" entre as linhas 117 e 121, e a corrida é realizada no arquivo "corrida.cpp" entre as linhas 109 e 274;
 d) A criação do sapo ocorre no arquivo  "main.cpp" entre as linhas 122 e 196, e o sapo é adicionado ao vetor com todos os sapos no arquivo "corrida.cpp" entre as linhas 27 e 50;
 e) A criação da pista ocorre no arquivo  "main.cpp" entre as linhas 198 e 248, e a pista é adicionada ao vetor com todos as pistas no arquivo "corrida.cpp" entre as linhas 53 e 72.
 
@@ -32,6 +32,10 @@ Passo 6: Para melhor entendimento, dividiremos a explicação do código por par
 a) A alteração dos dados após a realização da corrida é realizada no arquivo "corrida.cpp" entre as linhas 241 e 262;
 b) A inserção dos sapos nos arquivos é realizada no arquivo "main.cpp" entre as linhas 169 e 189;
 c) A inserção das pistas nos arquivos é realizada no arquivo "main.cpp" entre as linhas 232 e 249.
+
+Doxygen: Está localizado na pasta doc.
+
+
 
 
 

@@ -210,11 +210,13 @@ void Corrida::run(){
 				if (vetor[0]->getPulos() == vetor[i]->getPulos()){
 					/*@brief Se sim, adiciona 1 aos número de empates e indica que se deve colocar um no empate do primeiro colocado*/
 					vetor[i]->setEmpate(1 + vetor[i]->getEmpate());
+					vetor[i]->setWins(1 + vetor[i]->getWins());
 					aux3 = 1;
 			
 				} else if (vetor[j]->getPulos() == vetor[i]->getPulos()){ /*@brief Se empatou com algum outro sapo*/
 					/*@brief Ele recebe a mesma posição do anterior*/
 					posicao = posicao;
+					vetor[i]->setEmpate(1 + vetor[i]->getEmpate());
 			
 				} else { /*@brief Se nao empatou com algum outra posição*/
 					/*@brief indica o sapo atual e aumenta 1 posição em relação a posição anterior*/
@@ -231,6 +233,7 @@ void Corrida::run(){
 
 			if (aux3 == 1){ /*@brief Se o primeiro lugar empatou com alguem, aumentará um em seu valor de empates*/
 				vetor[0]->setEmpate(1 + vetor[0]->getEmpate());
+				vetor[0]->setWins(1 + vetor[0]->getWins());
 			} else {
 				/*@brief Se não empatou, o primeiro lugar receberá mais um em seu numero de vitórias*/
 				vetor[0]->setWins(1 + vetor[0]->getWins());
