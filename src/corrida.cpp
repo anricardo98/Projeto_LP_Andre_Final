@@ -119,7 +119,7 @@ void Corrida::run(){
 	int j = 0; /*@brief Variável auxiliar*/
 	int aux3 = 0; /*@brief Variável auxiliar que ajuda na determinação do empate*/
 
-
+	/*@brief Imprimirá o identificador e o local de realização de cada pista*/
 	for (i = 0; i < pistas.size(); i++){
 		cout << endl << "Pista " << pistas[i]->getNumero() << endl; 
 		cout << "Local " << pistas[i]->getLocal() << endl;
